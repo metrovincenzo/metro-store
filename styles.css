@@ -42,7 +42,11 @@ nav {
 }
 
 .logo {
-  letter-spacing: 2px;
+  font-family: "Ubuntu", "Roboto", "Cantarell", "Fira Sans", "Droid Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: var(--accent);
 }
 
 .nav-links {
@@ -237,6 +241,10 @@ footer {
 @media (max-width: 768px) {
   .hero {
     padding: 30px 6%;
+  }
+
+  .logo {
+    font-size: 1.5rem;
   }
 
   .hero-actions {
